@@ -1,0 +1,1 @@
+# Metacritic.com game Web scraping python script 
