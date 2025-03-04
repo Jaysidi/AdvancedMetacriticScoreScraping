@@ -404,7 +404,7 @@ if __name__ == "__main__":
     SCRAPE_PAGE_LIMIT = min(MAX_PAGE_ON_WEBSITE, SCRAPE_TO_PAGE)
     SPLIT_VALUE = 2500
 
-    # URLS à scraper
+    # URLS to scrape
     URLS = [f"{BASE_URL}{i}" for i in range(PAGE_OFFSET+1, SCRAPE_PAGE_LIMIT+1)]
 
     logging.info(f"📌 Starts scraping - {SCRAPE_PAGE_LIMIT-PAGE_OFFSET} pages to browse. "
